@@ -22,6 +22,7 @@ dig +trace website.com
 dig +dnssec website.com
 dig website.com +noall +answer +stats
 
-
+#find the dns info about the website
+https://dnsdumpster.com/ 
   
 
