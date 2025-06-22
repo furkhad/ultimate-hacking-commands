@@ -1,0 +1,27 @@
+#website 
+whois website.com
+whois 8.8.8.8
+whois -h whois.verisign-grs.com website.com
+whois -a website.com
+nslookup website.com
+nslookup website.com 8.8.8.8
+nslookup -query=mx website.com
+nslookup -query=ns website.com
+nslookup -query=txt website.com
+nslookup -query=soa website.com
+dig website.com
+dig website.com A
+dig website.com MX
+dig website.com NS
+dig website.com TXT
+dig -x 8.8.8.8
+dig @8.8.8.8 website.com
+dig website.com ANY
+dig +short website.com
+dig +trace website.com
+dig +dnssec website.com
+dig website.com +noall +answer +stats
+
+
+  
+
